@@ -9,7 +9,7 @@ Ce dépôt n'est pas un vrai cours : c'est le **témoin** de [`cielir-cours-kit`
 
 Il est régénéré à chaque modification du kit. Le tag `v1` du kit ne bouge qu'après l'avoir régénéré sans régression, et relu à l'œil, en couleur puis en niveaux de gris.
 
-Ce qu'il exerce : trous dans une phrase, trous dans un tableau, lignes de réponse rédigée, les cinq encadrés, bloc terminal, code coloré, schéma SVG à compléter.
+Ce qu'il exerce : trous dans une phrase, trous dans un tableau, lignes de réponse rédigée, les cinq encadrés, bloc terminal (avec un trou), code coloré, schéma SVG à compléter.
 
 ## Capacités visées
 
@@ -35,6 +35,7 @@ Ce qu'il exerce : trous dans une phrase, trous dans un tableau, lignes de répon
 │   ├── 01-temoin.md                 source des slides (Marp)
 │   └── img/schema.svg               chaîne de construction, à compléter
 ├── .vscode/settings.json            thème Marp pour l'aperçu dans VS Code
+├── .vscode/extensions.json          recommande l'extension Marp for VS Code
 └── .github/workflows/publier.yml    copie de gabarits/publier.yml du kit
 ```
 
@@ -42,7 +43,7 @@ Aucun fichier généré n'est enregistré ici : les PDF et les slides en ligne s
 
 ## Travailler le cours
 
-L'aperçu des slides se fait dans VS Code avec l'extension **Marp for VS Code** ; le thème `ciel` est déjà déclaré dans `.vscode/settings.json`.
+L'aperçu des slides se fait dans VS Code avec l'extension **Marp for VS Code** (recommandée dans `.vscode/extensions.json`) ; le thème `ciel` est déjà déclaré dans `.vscode/settings.json`.
 
 Pour régénérer les trois PDF en local, depuis une copie du kit :
 
