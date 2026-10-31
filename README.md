@@ -1,6 +1,6 @@
 # kit — c01 : Du code source au programme
 
-**Informatique — BTS CIEL-IR 1re année** · Lycée Louis Rascol, Albi
+**Informatique — 1CIELIR** · Lycée Louis Rascol, Albi
 
 📽️ **Les slides : <https://ciel-ir-rascol.github.io/cielir-cours-temoin/>**
 📄 **Les fiches en PDF : [dernière release](https://github.com/ciel-ir-rascol/cielir-cours-temoin/releases/latest)**
